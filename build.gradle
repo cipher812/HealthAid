@@ -26,3 +26,15 @@ allprojects {
 task clean(type: Delete) {
     delete rootProject.buildDir
 }
+
+#DL
+}
+
+task clean(type: Delete) {
+    delete rootProject.buildlang
+}
+}
+
+task clean(type: Delete) {
+    delete rootProject.buildList
+}
